@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+<style>
+    .empty {
+        border: 50px solid black;
+    }
+</style>
+</head>
+
+<body>
+
+    <p>1. If image is not exits and <b>alt</b> is blank so there are empty area found replace of it,
+    </p>
+
+    <img class="empty" src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" alt=""> <br><br>
+    
+    <p>2. If image is not exits <b>NO IMAGE</b> is found if <b> alt </b> is <b>NO IMAGE</b>
+    </p>
+
+    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" alt="no image"> <br><br>
+<p>3. Same looking if <b> alt and width </b> has any value</p>
+
+
+    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px" alt="no image"> <br><br>
+
+    <p>4. Same looking if <b> alt and height</b> has any value</p>
+    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" height="150px" alt="no image"><br><br>
+
+    <p>5. Same looking if <b> alt, width and height</b> has any value</p>
+
+    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px" height="150px" alt="no image"> <br><br>
+   
+    <h2>Without alt</h2>
+    <p>1. Only icon is appear when just <b> width </b> has nay value</p>
+    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px"><br><br>
+<p>2. </p>Only icon is appear when just <b> height </b>has nay value
+    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" height="150px"><br><br>
+    <p>3.But its consider both value if <b>width and height</b> both has any value</p>
+    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px" height="150px">
+</body>
+
+</html>
