@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image</title>
+    <title>Image tag in HTML</title>
 <style>
     .empty {
         border: 50px solid black;
-    }
+        ;
+    } 
 </style>
 </head>
 
 <body>
 
-    <p>1. If image is not exits and <b>alt</b> is blank so there are empty area found replace of it,
+<h4>Image tag is usually use for embeds an image into the document.</h4>
+<h4>The src attribute is required, and contains the path to the image you want to embed.</h4>
+
+    <p>1. If image is not exits and <b>alt</b> is blank so there are empty area found replace of it Note:- Border given for check differnace only,
     </p>
 
     <img class="empty" src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" alt=""> <br><br>
@@ -43,6 +47,18 @@
     <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" height="150px"><br><br>
     <p>3.But its consider both value if <b>width and height</b> both has any value</p>
     <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px" height="150px">
+
+    <h4>Image if path/URL is right so display like below</h4>
+    
+    <img src="/Images/Sample.jpg" alt="">
+    <h4>If we change width = 200 px so display like below</h4>
+    <img src="/Images/Sample.jpg" alt="" width="200px">
+    <h4>If we change height= 200 px so display like below</h4>
+    <img src="/Images/Sample.jpg" alt="" height="200px">
+    <h4>If we change both height= 400 px & width = 400 px so display like below</h4>
+    <img src="/Images/Sample.jpg" alt="" height="400px" width="400px">
+
+    <p> Note :- We can change image size as per clients requirement</p>
 </body>
 
 </html>
