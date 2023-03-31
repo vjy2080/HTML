@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Tag in HTML</title>
+
+</head>
+
+<body>
+
+    <h2> Wht is the Anchor tag in HTML?</h2>
+
+    <p>Anchor Tag is use with its href attribute.It is creates a hyperlink to web pages, files, email addresses,
+        locations in the same page, or anything else a URL can address.</p>
+
+    <h4>1.It is used to specify the target link to download when the user clicks.</h4>
+
+    <h4>2. It is used to specify the language of the linked document.</h4>
+
+    <h4>3.It is used to specify the linked media.</h4>
+
+    <h3>Example-1. We can use anchor tag for redirection to another webpage</h3>
+
+    <p>1.Redirection only available when its a full link with HTTP or HTTPs,Otherwise display error like this</p>
+
+    <a href="www.google.com">www.google.com</a><br>
+    <p>2. When URL is right.</p>
+
+    <a href="https://www.google.com/">https://www.google.com/</a> <br>
+
+    <h3>Example-2. We can use anchor tag for redirection to internal webpage like below example</h3>
+
+    <a href="01_Introduction.html">Introduction of HTML</a>
+
+    <br>
+
+    <a href="02_TagsVsElements.html">Tags Vs Elements</a> <br>
+    <br>
+
+    <h3>Example-3. Anchor tag with target attribute's value "_blank" So it will open in a new tab like below example
+    </h3>
+
+    <h3><a target="_blank" href="https://www.google.com/">Google</a></h3>
+
+    <h3>Example-4.If we place empty link without #, its a wrong way of coding</h3>
+
+    <a href="">empty link without #</a> <br>
+
+    <h3>Example-5.If we place empty link with #, its a right way of coding</h3>
+
+    <a href="#">empty link with #</a> <br>
+
+    <h3>Example-6. If we set target as "_top" so, It opens the linked document in the full body of the window.</h3>
+
+    <a href="#" target="_top">target = "_top"</a> <br>
+
+    <h3>Example-7. If we set target as "_self" so, It opens the linked document in the same frame..</h3>
+
+    <a href="#" target="_self">target = "_self"</a> <br>
+
+    <h3>Example-8. If we set target as "_parent" so, It opens the linked document in the parent frameset.</h3>
+
+    <a href="#" target="_parent">target = "_parent"</a> <br>
+
+    <h3>Example-9. If we set target as "_blank" so, It opens the link in a new window.</h3>
+
+    <a href="#" target="_blank">target = "_blank"</a> <br>
+
+    <h3>Example-10.For calling link href set as "tel: Contact No." as per below example</h3>
+    
+    &lt;a href="tel:9876543210" target="_top"&gt;call to 9876543210 &lt;/a&gt; <br>
+    <a href="tel:9876543210" target="_top">call to 9876543210 </a> <br>
+    
+    
+    <h3>Example-11.For Email link href set as "mailTo: Email address"</h3>
+    
+    &lt;a href="mailTo:user@example.com"&gt;Send mail to user&lt;/a&gt; <br>
+    <a href="mailTo:user@example.com">Send mail to user</a> <br>
+    
+</body>
+
+</html>

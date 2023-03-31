@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Path Absolute vs Relative</title>
 </head>
+
 <body>
 
-<h3>There are two way to apear MEDIA FILE in web page</h3>
-<ol>
-    <li>Realtive file Path</li>
-    <li>Absolute file Path</li>
-</ol>
+    <h3>There are two way to apear MEDIA FILE in web page</h3>
+    <ol>
+        <li>Realtive file Path</li>
+        <li>Absolute file Path</li>
+    </ol>
 
-<h3> Relative File Paths </h3>
+    <h3> Relative File Paths </h3>
 
-<p>
-    Relative file paths - the files you intend to reference are located in the same folder of your website folder structure.
-</p>
+    <p>
+        Relative file paths - the files you intend to reference are located in the same folder of your website folder
+        structure.
+    </p>
 
-<h3>Absolute File Paths </h3>
-To make use of HTML file paths, the two options are either relative or absolute file paths. With relative file paths, the files you intend to reference are located in the same folder of your website folder structure. On the other hand, with absolute file paths, you refer to external resources located elsewhere on the web.
-    <h1>PATH for files</h1>
-    <h2>Absolute</h2>
-    <p>exact location of particular file</p>
-    <p>C:\Users\Shree\Documents\GitHub\HTML\Images\Sample.jpg</p>
-    <img src="C:\Users\Shree\Documents\GitHub\HTML\Images\Sample.jpg" alt="">
-    <h2>Relative</h2>
-    <p>executed file and loaded file will be placed at related directory</p>
-    <p>./Images/Sample.jpg</p>
-    <img src="./Images/Sample.jpg" alt="">
+    <h3>Absolute File Paths </h3>
 
+    <p>Absolute paths use URLs that refer to a specific, fully identified location on the internet. These paths include a domain name as part of the link path itself</p>
+
+
+    <h2>1.Example of Relative path</h2>
+    
+    <p>Example-1.Images folder in the current folder itself</p>
+    
+    <h4>The file source is like this &RightArrow; &lt;img src="Images/Sample.jpg" alt=""&gt;
+    </h4>
+    
+    <img src="Images/Sample.jpg" alt="">
+    
+    <p>Example-2.Same folder as the current web-page file</p>
+    
+    <h4>The file source is like this &RightArrow; &lt;img src="Sample2.jpg" alt=""&gt;
+    </h4>
+    
+    <img src="Sample2.jpg" alt="">
+    
+    <p>Example-3.Images folder two level up the current web-page’s folder</p>
+    
+    <h4>The file source is like this &RightArrow; &lt;img src="../../Sample3.jpg" alt=""&gt;
+    </h4>
+    
+    <img src="../../Sample3.jpg" alt="">
+    
+    
+
+    <h2>2.Example of Absolute</h2>
+    
+    <p>The full URL of the file, that is to be accessed, is mentioned.</p>
+    <h4>The file source is like this &RightArrow; &lt;img src="https://cache.desktopnexus.com/thumbseg/1811/1811904-bigthumbnail.jpg" alt=""&gt;
+    </h4>
+    
+    
+    <img src="https://cache.desktopnexus.com/thumbseg/1811/1811904-bigthumbnail.jpg" alt="">
+
+
+    
 </body>
+
 </html>
