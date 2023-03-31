@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Tags in HTML</title>
+
+    <style>
+        section {
+            border: 2px solid pink;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .text {
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h3>What is the div tag in HTML?</h3>
+
+    <p> The div tag is used in HTML to make divisions of content in the web page
+        like (text, images, header, footer, navigation bar, etc). </p>
+    <p> Div tag has both open &lt; div &gt; and closing &lt;/div &gt; tag
+        and it is mandatory to close the tag.
+    </p>
+    <p> The Div is the most usable tag in web development because it helps us to
+        separate out data in the web page and we can create a particular section for particular data or function in the
+        web pages.</p>
+
+
+    <h3> Example of division &lt;div&gt; use for wrapping the data.</h3>
+
+    <div class="box" style="background-color: red;height: 100px;width:100px">Red Box</div>
+    <div class="box" style="background-color: green;height: 100px;width:100px">Green Box</div>
+    <div class="box" style="background-color: blue;height: 100px;width:100px">Blue Box</div>
+    <div class="box" id="contactus" style="background-color: orange;height: 100px;width:100px">Yellow Box</div>
+    <div class="box" style="background-color: purple;height: 100px;width:100px">Purple Box</div>
+
+    <h3>What is Section tag in HTML?</h3>
+
+    <p>Section tag defines the section of documents such as chapters, headers, footers or any other sections.
+    </p>
+    <p> The section tag divides the content into section and subsections.</p>
+    <p> The section tag is used when requirements of two headers or footers or any other section of documents needed.
+    </p>
+
+
+    <h3> Example of section &lt;section&gt; use for wrapping the divs.</h3>
+
+    <h2> Indian Leader</h2>
+    <section>
+        <h3> Jawaharlal Nehru </h3>
+        <p> Jawaharlal Nehru was the first Prime Minister of India and a central figure in
+            Indian politics for much of the 20th century. He emerged as the paramount leader of the Indian
+            independence movement under the tutelage of Mahatma Gandhi.</p>
+    </section>
+    <section>
+        <h3>Subhas Chandra Bose </h3>
+        <p>Subhas Chandra Bose was an Indian nationalist whose attempt during World War II to rid India of
+            British rule with the help of Nazi Germany and Japan left a troubled legacy.
+            The honorific Netaji (Hindustani language: "Respected Leader"), first applied to Bose in Germany.</p>
+    </section>
+
+    <h3>What is span tag in HTML?</h3>
+
+    <p>The HTML span element is a generic inline container for inline elements and content. It is used to group elements
+        for styling purposes (by using the class or id attributes), A better way to use it when no other semantic
+        element is available.</p>
+
+    <h4>Like this Example we can set same property for same content by span tage with class, It is usally use in CSS
+    </h4>
+
+    <p> Lorem ipsum dolor sit amet <span class="text"> consectetur </span>, adipisicing elit. Fugit, reiciendis.
+
+    <p> Lorem, ipsum dolor sit amet <span class="text"> consectetur </span> adipisicing elit. Veniam, enim. </p>
+
+    <p> Lorem ipsum dolor sit amet <span class="text"> consectetur </span> adipisicing elit. Perspiciatis, sequi! </p>
+
+
+    <h3>What is the Lble tag in HTML</h3>
+
+    <p> The &lt;label &gt; tag in HTML is used to provide a usability improvement for mouse users i.e, if a user clicks
+        on the text within the &lt;label &gt; element, it toggles the control.</p>
+    <p> The &lt;label &gt; tag defines the label
+        for &lt;button &gt;,&lt;input &gt;, &lt;meter &gt;, &lt;output &gt;, &lt;progress &gt;, &lt;select &gt;, or
+        &lt;textarea &gt; element.
+    </p>
+    <p> <b>The &lt; label &gt; tag can be used in two ways: </b></p>
+
+    <p> 1. use &lt; label &gt; tag by providing the &lt; input &gt; and id attribute. The &lt; label &gt; tag needs a for attribute whose
+                value is the same as input id.</p>
+    <p> 2. &lt; input &gt; tag use directly inside the &lt; label &gt; tag. In this case, the for and id attributes
+            are not needed because the association is implicit.
+    </p>
+
+<h3>Example of Lable tag</h3>
+
+<form>
+ 
+    
+    <label for="student">
+            Student
+    </label>
+    <input type="radio" name="Occupation"
+           id="student" value="student"><br>
+
+    <label for="business">
+            Business
+    </label>
+    <input type="radio" name="Occupation"
+           id="business" value="business"><br>
+
+    <label for="other">
+            Other
+    </label>
+    
+
+    <input type="radio" name="Occupation"
+           id="other" value="other">
+</form>
+
+
+
+</body>
+
+</html>

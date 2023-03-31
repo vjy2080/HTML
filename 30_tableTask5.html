@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Task 5</title>
+
+<style>
+    .BRK{
+        
+        writing-mode:vertical-lr ;
+            text-orientation: upright;
+            font-size: large;
+            padding: 20px;
+    }
+</style>
+
+</head>
+<body>
+    <table border="1" cellpadding="5px" align="center">
+        <tr>
+            <td rowspan="2">Days</td>
+            <td colspan="6" align="center">Time</td>
+        </tr>
+    
+        <tr>
+            <td>8:00</td>
+            <td>9:00</td>
+            <td>10:00</td>
+            <td>11:00</td>
+            <td>11:30</td>
+            <td>12:30</td>
+        </tr>
+        <tr>
+            <td>MON</td>
+            <td>Course 1</td>
+            <td>Course 2</td>
+            <td>Course 3</td>
+            <td class="BRK" rowspan="5">Break</td>
+            <td>Course 5</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TUE</td>
+            
+            <td colspan="2"></td>
+            <td>Course 2</td>
+            
+            <td>Course 4</td>
+            <td>Course 1</td>
+            
+        </tr>
+        <tr>
+            <td>WED</td>
+            <td>Course 3</td>
+            <td colspan="2"></td>
+            <td>Course 2</td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td>THR</td>
+            <td rowspan="2">Course 4</td>
+            <td>Course 2</td>
+            <td>Course 3</td>
+            <td align="center" colspan="2" rowspan="2">Thesis</td>
+            
+            
+            
+        </tr>
+        </tr>
+        <tr>
+            <td>FRI</td>
+            <td></td>
+            <td>Course 1</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
