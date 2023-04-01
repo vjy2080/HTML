@@ -1,0 +1,16 @@
+form{background-color: rgb(155, 209, 191);}    
+legend{text-align: center;}
+h1{color:rgb(38, 0, 128);}
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(197, 241, 156);
+}
+.submit{
+    border: 2px solid blue;
+    background-color: aqua;
+}
+.reset{
+    border: 2px solid red;
+    background-color: rgb(252, 73, 73);
+}

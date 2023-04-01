@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element in HTML</title>
+</head>
+<style>
+table{
+    border: 2px solid black;
+    background-color: rgb(122, 224, 238);
+}
+td{
+    border: 1px solid black;
+    background-color: rgb(203, 234, 238);
+    color: black;
+}
+
+.sub{
+    background-color: rgb(0, 255, 242)
+    ;
+}
+.rst{
+    background-color: rgb(233, 44, 44);
+}
+</style>
+
+
+
+<body>
+
+
+    <table>
+        <tr>
+            <td colspan="2" align="center">
+                <h3>Form Detail</h3>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="usernameid">User Name</label></td>
+            <td><input type="text" placeholder="User-Name" name="username" id="usernameid"></td>
+        </tr>
+        <tr>
+            <td><label for="Password">Password</label></td>
+            <td><input type="password" placeholder="Password" name="Password" id="Password"></td>
+        </tr>
+        <tr>
+            <td><label for="">Email</label></td>
+            <td><input type="email" title="Invalid email address" value="example@abc.com" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="">Mobile</label></td>
+            <td><input type="tel" value="+91-" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="">Age</label></td>
+            <td><input type="number" placeholder="In Year" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td>
+                <input type="radio" name="Gender" value="Male" id="Male"><label for="Male"> Male</label>
+                <input type="radio" name="Gender" value="Female" id="Female"><label for="Female"> Female</label>
+                <input type="radio" name="Gender" value="Other" id="Other"><label for="Other"> Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Hobbies</label></td>
+            <td>
+                <input type="checkbox" name="chk[]" id="Cricket"><label for="Cricket">Cricket</label>
+                <input type="checkbox" name="chk[]" id="Music"><label for="Music">Music</label>
+                <input type="checkbox" name="chk[]" id="Reading"><label for="Reading">Reading</label>
+                <input type="checkbox" name="chk[]" id="Travelling"><label for="Travelling">Travelling</label>
+                <input type="checkbox" name="chk[]" id="Nothing"><label for="Nothing">Nothing</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Address</label></td>
+            <td>
+                <textarea name="" id="" placeholder=" Must be enter PIN  " cols="50" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">City</label></td>
+            <td>
+                <select name="city" id="">
+                    <option value="">select city</option>
+                    <option value="Ahemdabad">Ahemdabad</option>
+                    <option value="Baroda">Baroda</option>
+                    <option value="Gandhinagar" selected >Gandhinagar</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Education</label></td>
+            <td>
+                <select name="education" multiple id="">
+                    <option value="">10th</option>
+                    <option value="">12th</option>
+                    <option value="">B.A.</option>
+                    <option value="">B.Comm.</option>
+                    <option value="">B.Sc.</option>
+                    <option value="">M.A.</option>
+                    <option value="">M.Comm.</option>
+                    <option value="">M.Sc.</option>
+                    <option value="">PhD</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Action</label></td>
+            <td><input class="sub" type="submit"  name="submit" id="submit">
+            <input class="rst" type="reset"  name="reset" id="reset"></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
