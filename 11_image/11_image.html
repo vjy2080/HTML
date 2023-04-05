@@ -5,60 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image tag in HTML</title>
-<style>
-    .empty {
-        border: 50px solid black;
-        ;
-    } 
-</style>
+    <title>Introduction of Image tag in HTML</title>
+    
 </head>
 
 <body>
-
-<h4>Image tag is usually use for embeds an image into the document.</h4>
-<h4>The src attribute is required, and contains the path to the image you want to embed.</h4>
-
-    <p>1. If image is not exits and <b>alt</b> is blank so there are empty area found replace of it Note:- Border given for check differnace only,
-    </p>
-
-    <img class="empty" src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" alt=""> <br><br>
     
-    <p>2. If image is not exits <b>NO IMAGE</b> is found if <b> alt </b> is <b>NO IMAGE</b>
-    </p>
+    <h2> What is image tag in html?</h2>
+    
+    <li> HTML &lt;img&gt; tag is used to add image inside webpage/website. Nowadays website does not directly add images to a
+        web page, as the images are linked to web pages by using the &lt;img&gt; tag which holds space for the image.
+    </li><li>
+        HTML img tag is used to display image on the web page. HTML img tag is an empty tag that contains attributes only, closing tags are not used in HTML image element.</li>
+        
+        <li>Image tag is usually use for embeds an image into the document.</li>
+        <li>The src attribute is required, and contains the path to the image you want to embed.</li>
 
-    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" alt="no image"> <br><br>
-<p>3. Same looking if <b> alt and width </b> has any value</p>
-
-
-    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px" alt="no image"> <br><br>
-
-    <p>4. Same looking if <b> alt and height</b> has any value</p>
-    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" height="150px" alt="no image"><br><br>
-
-    <p>5. Same looking if <b> alt, width and height</b> has any value</p>
-
-    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px" height="150px" alt="no image"> <br><br>
+   <h2> How to get image from another directory/folder? </h2>
    
-    <h2>Without alt</h2>
-    <p>1. Only icon is appear when just <b> width </b> has nay value</p>
-    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px"><br><br>
-<p>2. </p>Only icon is appear when just <b> height </b>has nay value
-    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" height="150px"><br><br>
-    <p>3.But its consider both value if <b>width and height</b> both has any value</p>
-    <img src="../prop-Attribute-in-HTML-Comparison-Summary.jpg" width="150px" height="150px">
+   <li> To insert an image in your web, that image must be present in your same folder where you have put the HTML file. But if in some case image is available in some other directory then you can access the image like this </li>
 
-    <h4>Image if path/URL is right so display like below</h4>
+   <p>
+       &lt;img src="E:/images/animal.png" height="180" width="300" alt="animal image"&gt;
+    </p>
     
-    <img src="/Images/Sample.jpg" alt="">
-    <h4>If we change width = 200 px so display like below</h4>
-    <img src="/Images/Sample.jpg" alt="" width="200px">
-    <h4>If we change height= 200 px so display like below</h4>
-    <img src="/Images/Sample.jpg" alt="" height="200px">
-    <h4>If we change both height= 400 px & width = 400 px so display like below</h4>
-    <img src="/Images/Sample.jpg" alt="" height="400px" width="400px">
+    <p>In above statement we have put image in local disk E------>images folder------>animal.png.</p>
+<ol>
+    <li> <b>src:</b> It is used to specify the path to the image.</li>
+   <li><b> alt:</b> It is used to specify an alternate text for the image. It is useful as it informs the user about what the image
+    means and also due to any network issue if the image cannot be displayed then this alternate text will be displayed.</li>
+<li>   <b> crossorigin: </b> It is used to import images from third-party sites that allow cross-origin access to be used with
+    canvas.</li>
+<li> <b>   height:</b> It is used to specify the height of the image.</li>
+<li>   <b> width: </b> It is used to specify the width of the image.</li>
+<li> <b>   ismap: </b> It is used to specify an image as a server-side image map.</li>
+<li>   <b> loading: </b> It is used to specify whether a browser should defer loading of images until some conditions are met or
+    load an image immediately.</li>
+<li>   <b> longdesc: </b> It is used to specify a URL to a detailed description of an image.</li>
+<li>   <b> referrerpolicy:</b> It is used to specify which referrer information to use when fetching an image i.e. no-referrer,
+    no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url.</li>
+<li>   <b> sizes: </b> It is used to specify image sizes for different page layouts.</li>
+<li>   <b> srcset: </b> It is used to specify a list of image files to use in different situations.</li>
+<li>   <b> usemap: </b> It is used to specify an image as a client-side image map.</li>
 
-    <p> Note :- We can change image size as per clients requirement</p>
+</ol>
+
+    
 </body>
 
 </html>
