@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Level Elements</title>
+</head>
+<style>
+    .bdr {
+        border: 2px solid black;
+    }
+</style>
+
+<body>
+
+    <h2>Block-level Elements</h2>
+    <ol>
+        <li>
+            A block-level element always starts on a new line, and the browsers automatically add some space (a margin)
+            before and after the element.
+        </li>
+        <li>
+            A block-level element always takes up the full width available (stretches out to the left and right as far
+            as it
+            can).
+        </li>
+        <li>
+            Two commonly used block elements are: &lt;p&gt; and
+            &lt;div&gt;.
+        </li>
+        <li>
+            The &lt;p&gt; element defines a paragraph in an HTML document.
+        </li>
+        <li>
+            The &lt;div&gt; element defines a division or a section in an HTML document.
+        </li>
+        <li>Block-level elements are used within the body of an HTML document and can contain inline elements, or other
+            block-level elements.</li>
+    </ol>
+
+
+   <h3> For example, the HTML heading elements (&lt;h1&gt; through &lt;h6&gt;) are block-level elements that automatically place their content onto a new line and push any content that follows onto a new line. Each of these six heading elements represent a different heading size.</h3>
+
+<p>Code is as per below example, Ignore class="bdr" its only for visual effect</p>
+
+&lt;h1 class="bdr"&gt;Heading 1&lt;/h1&gt;&lt;h2 class="bdr"&gt;Heading 2&lt;/h2&gt;&lt;h3 class="bdr"&gt;Heading 3&lt;/h3&gt;
+&lt;h4 class="bdr"&gt;Heading 4&lt;/h4&gt;&lt;h5 class="bdr"&gt;Heading 5&lt;/h5&gt;&lt;h6 class="bdr"&gt;Heading 6&lt;/h6&gt;
+
+<p>Output is as per below example</p>
+            
+            <h1 class="bdr">Heading 1</h1><h2 class="bdr">Heading 2</h2><h3 class="bdr">Heading 3</h3>
+            <h4 class="bdr">Heading 4</h4><h5 class="bdr">Heading 5</h5><h6 class="bdr">Heading 6</h6>
+
+
+            <h3>Notice :- &nbsp; That the heading element &lt;h1&gt; has started on a new line and pushed the subsequent text element to a new line even though the elements were written on the same line in the HTML document.</h3>
+
+
+</body>
+
+</html>
