@@ -1,84 +1,214 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Task 1</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+
+        }
+
+        .LNC{
+            writing-mode:vertical-lr ;
+            text-orientation: upright;
+            font-size: x-large;
+        }
+        caption {
+            padding: 10px;
+            font-size: x-large;
+            font-weight: bolder;
+            text-align: center;
+        }
+        
+           </style>
+
+
+</head>
+
 <body>
+
     <!-- table tag starts here -->
-    <table border="1"  cellpadding="5px">
-        <!-- thead tag starts here -->
-        <thead>
-            <!-- tr tag starts here -->
-            <tr>
-                <!-- th tag starts here --><th rowspan="3">Day</th><!-- th tag ends here -->
-                <!-- th tag starts here --><th colspan="3">Seminar</th><!-- th tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-                <!-- th tag starts here --><th colspan="2">Schedule</th><!-- th tag ends here -->
-                <!-- th tag starts here --><th rowspan="2">Topic</th><!-- th tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-                <!-- th tag starts here --><th>Begin</th><!-- th tag ends here -->
-                <!-- th tag starts here --><th>End</th><!-- th tag ends here -->
-            </tr>
-            <!-- tr tag ends here -->
-        </thead>
-        <!-- thead tag ends here -->
+    <table>
+        <!-- caption tag starts here -->
+        <caption> TIME TABLE</caption> 
+        <!-- caption tag ends here -->
+        <!-- tr tag starts here -->
+        <tr>
+            <!-- th tag starts here -->
+            <th>Day/Period</th> 
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>9:30-10:20</th> 
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>10:20-11:10</th>
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>11:10-12:00</th>
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>12:00-12:40</th>
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>12:40-1:30</th> 
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>1:30-2:20</th>  
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>2:20-3:10</th>  
+            <!-- th tag ends here -->
+            <!-- th tag starts here -->
+            <th>3:10-4:00</th>  
+            <!-- th tag ends here -->
+        </tr>
+        <!-- tr tag ends here -->
+        <!-- tr tag starts here -->
+        <tr>
+            <!-- td tag starts here -->
+            <td>Monday</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>ENG</td>   
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>MATH</td>  
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>CHE</td>   
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td class="LNC" rowspan="6">Lunch</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td colspan="3">LAB</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>PHY</td>   
+            <!-- td tag ends here -->
+        </tr>
+        <!-- tr tag ends here -->
+        <!-- tr tag starts here -->
+        <tr>
+            <!-- td tag starts here -->
+            <td>Tuesday</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td colspan="3">LAB</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>ENG</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>CHE</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>MATH</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>SPORTS</td>
+            <!-- td tag ends here -->
+        </tr>
+        <!-- tr tag ends here -->
+        <!-- tr tag starts here -->
+        <tr>
+            <!-- td tag starts here -->
+            <td>Wednesday</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>MATH</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>PHY</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>ENG</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>CHE</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td colspan="3">LIBRARY</td>
+            <!-- td tag ends here -->
 
-        <!-- tbody tag starts here -->
-        <tbody>
-            <!-- tr tag starts here -->
-            <tr>
-                <!-- td tag starts here --><td rowspan="2">Monday</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td rowspan="2" bgcolor="yellow" >8:00 a.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td rowspan="2" bgcolor="pink" >5:00 p.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td align="center" >Introduction to XML</td><!-- td tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-                <!-- td tag starts here --><td align="center" >Validity: DTD and Relax NG</td><!-- td tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-                <!-- td tag starts here --><td rowspan="21">Tuesday</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td rowspan="8" bgcolor="yellow" >8:00 a.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td rowspan="8" bgcolor="yellow" >11:00 a.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td rowspan="14" align="center" >XPath </td><!-- td tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-                <!-- td tag starts here --><td rowspan="10" bgcolor="yellow" >11:00 a.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td rowspan="10" bgcolor="yellowgreen" >2:00 p.m</td><!-- td tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-
-                <!-- td tag starts here --><td rowspan="7" align="center" >XSL transformation</td><!-- td tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-                <!-- td tag starts here --><td rowspan="3"bgcolor="yellowgreen">2:00 p.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td rowspan="3"bgcolor="pink">5:00 p.m</td><!-- td tag ends here -->
-            </tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
-            <!-- tr tag starts here --><tr>
-                <!-- td tag starts here --><td>Wednesday</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td bgcolor="yellow">8:00 a.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td bgcolor="yellowgreen">12:00 p.m</td><!-- td tag ends here -->
-                <!-- td tag starts here --><td align="center" >XLS Formatting Objects</td><!-- td tag ends here -->
-            </tr>
-            <!-- tr tag ends here -->
-            
-        </tbody>
-        <!-- tbody tag ends here -->
+        </tr>
+        <!-- tr tag ends here -->
+        <!-- tr tag starts here -->
+        <tr>
+            <!-- td tag starts here -->
+            <td>Thursday</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>PHY</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>ENG</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>CHE</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td colspan="3">LAB</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>MATH</td>
+            <!-- td tag ends here -->
+        </tr>
+        <!-- tr tag ends here -->
+        <!-- tr tag starts here -->
+        <tr>
+            <!-- td tag starts here -->
+            <td>Friday</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td colspan="3">LAB</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>MATH</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>CHE</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>ENG</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>PHY</td>
+            <!-- td tag ends here -->
+        </tr>
+        <!-- tr tag ends here -->
+        <!-- tr tag starts here -->
+        <tr>
+            <!-- td tag starts here -->
+            <td>Saturday</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>ENG</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>CHE</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>MATH</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td colspan="3">SEMINAR</td>
+            <!-- td tag ends here -->
+            <!-- td tag starts here -->
+            <td>SPORTS</td>
+            <!-- td tag ends here -->
+        </tr>
+        <!-- tr tag ends here -->
+        
+        
     </table>
     <!-- table tag ends here -->
 </body>

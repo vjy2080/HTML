@@ -1,116 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Task 3</title>
-</head>
-
+<html>
 <body>
-
     <!-- table tag starts here -->
-    <table border="1" cellpadding="5px">
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- th tag starts here -->
-            <th> rowspan="11">TCB</th><!-- th tag ends here -->
-            <!-- th tag starts here -->
-            <th>>Order no:</th><!-- th tag ends here -->
-            <!-- td tag starts here -->
-            <td> colspan="3">#ABC001</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
+    <table border="1"  cellpadding="5px">
+        <!-- thead tag starts here -->
+        <thead>
+            <!-- tr tag starts here -->
+            <tr>
+                <!-- th tag starts here --><th rowspan="3">Day</th><!-- th tag ends here -->
+                <!-- th tag starts here --><th colspan="3">Seminar</th><!-- th tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
+                <!-- th tag starts here --><th colspan="2">Schedule</th><!-- th tag ends here -->
+                <!-- th tag starts here --><th rowspan="2">Topic</th><!-- th tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
+                <!-- th tag starts here --><th>Begin</th><!-- th tag ends here -->
+                <!-- th tag starts here --><th>End</th><!-- th tag ends here -->
+            </tr>
+            <!-- tr tag ends here -->
+        </thead>
+        <!-- thead tag ends here -->
 
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- th tag starts here -->
-            <th>>Order Date:</th><!-- th tag ends here -->
-            <!-- td tag starts here -->
-            <td> colspan="3">23-Mar-2016</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
+        <!-- tbody tag starts here -->
+        <tbody>
+            <!-- tr tag starts here -->
+            <tr>
+                <!-- td tag starts here --><td rowspan="2">Monday</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td rowspan="2" bgcolor="yellow" >8:00 a.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td rowspan="2" bgcolor="pink" >5:00 p.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td align="center" >Introduction to XML</td><!-- td tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
+                <!-- td tag starts here --><td align="center" >Validity: DTD and Relax NG</td><!-- td tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
+                <!-- td tag starts here --><td rowspan="21">Tuesday</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td rowspan="8" bgcolor="yellow" >8:00 a.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td rowspan="8" bgcolor="yellow" >11:00 a.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td rowspan="14" align="center" >XPath </td><!-- td tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
+                <!-- td tag starts here --><td rowspan="10" bgcolor="yellow" >11:00 a.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td rowspan="10" bgcolor="yellowgreen" >2:00 p.m</td><!-- td tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
 
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- th tag starts here -->
-            <th> colspan="4">Customer</th><!-- th tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- th tag starts here -->
-            <th>>Name:</th><!-- th tag ends here -->
-            <!-- td tag starts here -->
-            <td> colspan="3">John Papas</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- th tag starts here -->
-            <th>>Address:</th><!-- th tag ends here -->
-            <!-- td tag starts here -->
-            <td> colspan="3">Independence Day 5th str, 11511</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- th tag starts here -->
-            <th> colspan="4">Order Details</th><!-- th tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- td tag starts here -->
-            <td>>1</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>Of Mice nd Men</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>Book</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>10.00€</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- td tag starts here -->
-            <td>>2</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>Les Miserables</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>Book</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>12.00€</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- td tag starts here -->
-            <td>>3</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>Game of Thrones-S01</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>DVD</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>50.00€</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- td tag starts here -->
-            <td>>4</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>Samsung Galaxy</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>Mobile Phone</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>200.00€</td><!-- td tag ends here -->
-        </tr><!-- tr tag ends here -->
-        <!-- tr tag starts here -->
-        <tr>
-            <!-- td tag starts here -->
-            <td> colspan="3" align="right">Total</td><!-- td tag ends here -->
-            <!-- td tag starts here -->
-            <td>>272.00€</td><!-- td tag ends here -->
-        </tr>
-        <!-- tr tag ends here -->
-
+                <!-- td tag starts here --><td rowspan="7" align="center" >XSL transformation</td><!-- td tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
+                <!-- td tag starts here --><td rowspan="3"bgcolor="yellowgreen">2:00 p.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td rowspan="3"bgcolor="pink">5:00 p.m</td><!-- td tag ends here -->
+            </tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr></tr><!-- tr tag ends here -->
+            <!-- tr tag starts here --><tr>
+                <!-- td tag starts here --><td>Wednesday</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td bgcolor="yellow">8:00 a.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td bgcolor="yellowgreen">12:00 p.m</td><!-- td tag ends here -->
+                <!-- td tag starts here --><td align="center" >XLS Formatting Objects</td><!-- td tag ends here -->
+            </tr>
+            <!-- tr tag ends here -->
+            
+        </tbody>
+        <!-- tbody tag ends here -->
     </table>
     <!-- table tag ends here -->
-
-
 </body>
 
 </html>
