@@ -8,112 +8,370 @@
     <title>Form Element in HTML</title>
 </head>
 <style>
-table{
-    border: 2px solid black;
-    background-color: rgb(122, 224, 238);
-}
-td{
-    border: 1px solid black;
-    background-color: rgb(203, 234, 238);
-    color: black;
-}
+    table {
+        border: 2px solid black;
+        background-color: rgb(122, 224, 238);
+    }
 
-.sub{
-    background-color: rgb(0, 255, 242)
-    ;
-}
-.rst{
-    background-color: rgb(233, 44, 44);
-}
+    td {
+        border: 1px solid black;
+        background-color: rgb(203, 234, 238);
+        color: black;
+    }
+
+    .sub {
+        background-color: rgb(0, 255, 242);
+    }
+
+    .rst {
+        background-color: rgb(233, 44, 44);
+    }
 </style>
 
 
 
 <body>
 
-
+    <!-- table tag starts here -->
     <table>
+        <!-- tr tag starts here -->
         <tr>
+
+            <!-- td tag starts here -->
             <td colspan="2" align="center">
                 <h3>Form Detail</h3>
             </td>
+            <!-- td tag ends here -->
+
         </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
         <tr>
-            <td><label for="usernameid">User Name</label></td>
-            <td><input type="text" placeholder="User-Name" name="username" id="usernameid"></td>
-        </tr>
-        <tr>
-            <td><label for="Password">Password</label></td>
-            <td><input type="password" placeholder="Password" name="Password" id="Password"></td>
-        </tr>
-        <tr>
-            <td><label for="">Email</label></td>
-            <td><input type="email" title="Invalid email address" value="example@abc.com" name="" id=""></td>
-        </tr>
-        <tr>
-            <td><label for="">Mobile</label></td>
-            <td><input type="tel" value="+91-" name="" id=""></td>
-        </tr>
-        <tr>
-            <td><label for="">Age</label></td>
-            <td><input type="number" placeholder="In Year" name="" id=""></td>
-        </tr>
-        <tr>
-            <td><label for="">Gender</label></td>
+
+            <!-- td tag starts here -->
             <td>
-                <input type="radio" name="Gender" value="Male" id="Male"><label for="Male"> Male</label>
-                <input type="radio" name="Gender" value="Female" id="Female"><label for="Female"> Female</label>
-                <input type="radio" name="Gender" value="Other" id="Other"><label for="Other"> Other</label>
+                <!-- label tag starts here -->
+                <label for="usernameid">User Name</label>
+                <!-- label tag ends here -->
             </td>
-        </tr>
-        <tr>
-            <td><label for="">Hobbies</label></td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
             <td>
-                <input type="checkbox" name="chk[]" id="Cricket"><label for="Cricket">Cricket</label>
-                <input type="checkbox" name="chk[]" id="Music"><label for="Music">Music</label>
-                <input type="checkbox" name="chk[]" id="Reading"><label for="Reading">Reading</label>
-                <input type="checkbox" name="chk[]" id="Travelling"><label for="Travelling">Travelling</label>
-                <input type="checkbox" name="chk[]" id="Nothing"><label for="Nothing">Nothing</label>
+                <!-- input tag starts here -->
+                <input type="text" placeholder="User-Name" name="username"
+                    id="usernameid">
             </td>
+            <!-- td tag ends here -->
+
         </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
         <tr>
-            <td><label for="">Address</label></td>
+
+            <!-- td tag starts here -->
             <td>
+                <!-- label tag starts here -->
+                <label for="Password">Password</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- input tag starts here -->
+                <input type="password" placeholder="Password" name="Password"
+                    id="Password">
+            </td>
+            <!-- td tag ends here -->
+
+        </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
+        <tr>
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- label tag starts here -->
+                <label for="">Email</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- input tag starts here -->
+                <input type="email" title="Invalid email address" value="example@abc.com"
+                    name="" id="">
+            </td>
+            <!-- td tag ends here -->
+
+        </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
+        <tr>
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- label tag starts here -->
+                <label for="">Mobile
+
+                </label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- input tag starts here -->
+                <input type="tel" value="+91-" name="" id="">
+            </td>
+            <!-- td tag ends here -->
+
+        </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
+        <tr>
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- label tag starts here -->
+                <label for="">Age</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- input tag starts here -->
+                <input type="number" placeholder="In Year" name="" id="">
+            </td>
+            <!-- td tag ends here -->
+
+        </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
+        <tr>
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- label tag starts here -->
+                <label for="">Gender</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+
+                <!-- input tag starts here -->
+                <input type="radio" name="Gender" value="Male" id="Male">
+                <!-- label tag starts here -->
+                <label for="Male"> Male</label>
+                <!-- label tag ends here -->
+                <!-- input tag starts here -->
+                <input type="radio" name="Gender" value="Female" id="Female">
+                <!-- label tag starts here -->
+                <label for="Female"> Female</label>
+                <!-- label tag ends here -->
+                <!-- input tag starts here -->
+                <input type="radio" name="Gender" value="Other" id="Other">
+                <!-- label tag starts here -->
+                <label for="Other"> Other</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+        </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
+        <tr>
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- label tag starts here -->
+                <label for="">Hobbies
+
+                </label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+
+                <!-- input tag starts here -->
+                <input type="checkbox" name="chk[]" id="Cricket">
+                <!-- label tag starts here -->
+                <label for="Cricket">Cricket</label>
+                <!-- label tag ends here -->
+                <!-- input tag starts here -->
+                <input type="checkbox" name="chk[]" id="Music">
+                <!-- label tag starts here -->
+                <label for="Music">Music</label>
+                <!-- label tag ends here -->
+                <!-- input tag starts here -->
+                <input type="checkbox" name="chk[]" id="Reading">
+                <!-- label tag starts here -->
+                <label for="Reading">Reading</label>
+                <!-- label tag ends here -->
+                <!-- input tag starts here -->
+                <input type="checkbox" name="chk[]" id="Travelling">
+                <!-- label tag starts here -->
+                <label for="Travelling">Travelling</label>
+                <!-- label tag ends here -->
+                <!-- input tag starts here -->
+                <input type="checkbox" name="chk[]" id="Nothing">
+                <!-- label tag starts here -->
+                <label for="Nothing">Nothing</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+        </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
+        <tr>
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- label tag starts here -->
+                <label for="">Address</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+
+                <!-- textarea tag starts here -->
                 <textarea name="" id="" placeholder=" Must be enter PIN  " cols="50" rows="3"></textarea>
+                <!-- textarea tag ends here -->
             </td>
+            <!-- td tag ends here -->
+
         </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
         <tr>
-            <td><label for="">City</label></td>
+
+            <!-- td tag starts here -->
             <td>
+                <!-- label tag starts here -->
+                <label for="">City</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+
+                <!-- select tag starts here -->
                 <select name="city" id="">
+                    <!-- option tag starts here -->
                     <option value="">select city</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
                     <option value="Ahemdabad">Ahemdabad</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
                     <option value="Baroda">Baroda</option>
-                    <option value="Gandhinagar" selected >Gandhinagar</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="Gandhinagar" selected>Gandhinagar</option>
+                    <!-- option tag ends here -->
                 </select>
+                <!-- selecttag ends here -->
             </td>
+            <!-- td tag ends here -->
+
         </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
         <tr>
-            <td><label for="">Education</label></td>
+
+            <!-- td tag starts here -->
             <td>
-                <select name="education" multiple id="">
-                    <option value="">10th</option>
-                    <option value="">12th</option>
-                    <option value="">B.A.</option>
-                    <option value="">B.Comm.</option>
-                    <option value="">B.Sc.</option>
-                    <option value="">M.A.</option>
-                    <option value="">M.Comm.</option>
-                    <option value="">M.Sc.</option>
-                    <option value="">PhD</option>
-                </select>
+                <!-- label tag starts here -->
+                <label for="">Education</label>
+                <!-- label tag ends here -->
             </td>
+            <!-- td tag ends here -->
+
+            <!-- td tag starts here -->
+            <td>
+
+                <!-- select tag starts here -->
+                <select name="education" multiple id="">
+                    <!-- option tag starts here -->
+                    <option value="">10th</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">12th</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">B.A.</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">B.Comm.</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">B.Sc.</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">M.A.</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">M.Comm.</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">M.Sc.</option>
+                    <!-- option tag ends here -->
+                    <!-- option tag starts here -->
+                    <option value="">PhD</option>
+                    <!-- option tag ends here -->
+                </select>
+                <!-- selecttag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
         </tr>
+        <!-- tr tag ends here -->
+
+        <!-- tr tag starts here -->
         <tr>
-            <td><label for="">Action</label></td>
-            <td><input class="sub" type="submit"  name="submit" id="submit">
-            <input class="rst" type="reset"  name="reset" id="reset"></td>
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- label tag starts here -->
+                <label for="">Action</label>
+                <!-- label tag ends here -->
+            </td>
+            <!-- td tag ends here -->
+
+
+            <!-- td tag starts here -->
+            <td>
+                <!-- input tag starts here -->
+                <input class="sub" type="submit" name="submit" id="submit">
+                <!-- input tag starts here -->
+                <input class="rst" type="reset" name="reset" id="reset">
+            </td>
+            <!-- td tag ends here -->
+
         </tr>
+        <!-- tr tag ends here -->
+
     </table>
 
 
