@@ -24,12 +24,16 @@
         </ol>
     </ul>
 
+    <hr>
+
     <h3>Why use HTML Form </h3>
     <ul>
         <li>
             HTML forms are required if you want to collect some data from of the site visitor.
         </li>
     </ul>
+
+    <hr>
 
     <h3>List of All &lt; form &gt; Attributes</h3>
     <ol>
@@ -63,15 +67,17 @@
         </li>
     </ol>
 
+    <hr>
+
     <h3> Input type Attributes value List</h3>
 
-    <img src="Images/Input type attributs value list.jpg" alt="">
+    <img src="../Images/Input type attributs value list.jpg" alt="">
     <hr>
     <h3> Different between form get & post method.</h3>
-    <img src="Images/Different between Form Get & Form Post method.jpg" alt="">
+    <img src="../Images/Different between Form Get & Form Post method.jpg" alt="">
 
     <H3>Example of get method</H3>
-
+    <hr>
     <form method="get">
         <input type="text" name="username" id="username" placeholder="User Name">
         <input type="password" name="password" id="password" placeholder="Password">
@@ -79,8 +85,8 @@
     </form>
 
     <h4> After submit we will get information in URL as below</h4>
-    <p> file:///C:/Users/Shree/Documents/GitHub/HTML/31_Form.html?username=vijay&password=Vijay%401991&btn=Submit </p>
-
+    <p>file:///C:/Users/Shree/Documents/GitHub/HTML/25_Form/31_Form.html?username=Vijay&password=vijay%401518&btn=Submit
+    </p>
 
     <H3>Example of post method</H3>
 
@@ -92,7 +98,7 @@
 
     <h4> After submit we will get information in URL as it is like below</h4>
     <p>Data will be go direct to the server not display in URL</p>
-    <p>file:///C:/Users/Shree/Documents/GitHub/HTML/31_Form.html?</p>
+    <p>file:///C:/Users/Shree/Documents/GitHub/HTML/25_Form/31_Form.html</p>
 
     <hr>
 
@@ -101,51 +107,53 @@
     <h3>The action attribute specifies where to send the form-data when a form is submitted.</h3>
 
     <h3>Example of Action Attributes value = "login.php"</h3>
-    
+
     <form action="login.php" method="post">
         <input type="text" name="username" id="username" placeholder="User Name">
         <input type="password" name="password" id="password" placeholder="Password">
         <input type="submit" name="btn" id="btn">
     </form>
-    
+
     <h4> After submit we will get information in URL as it is like below</h4>
-    
+
     <p>file:///C:/Users/Shree/Documents/GitHub/HTML/login.php</p>
-    
+
     <p>Data will be go direct where to specify and not display in URL</p>
-    
+
     <hr>
-    
+
     <h2>Enctype Attribute</h2>
-    
+
     <h3>The enctype attribute specifies how the form-data should be encoded when submitting it to the server.</h3>
-    
+
     <h3>Example of Action Attributes value = "login.php" enctype="multipart/form-data"</h3>
     <p></p>
-    
-    <form action="login.php" enctype="multipart/form-data" method="post"> 
-   
+
+    <form action="login.php" enctype="multipart/form-data" method="post">
+
         <input type="text" name="username" id="username" placeholder="User Name">
         <input type="password" name="password" id="password" placeholder="Password">
         <input type="file" name="profile_pic" id="profile_pic" accept="image/*">
-        <input type="submit" name="btn" id="btn"> 
+        <input type="submit" name="btn" id="btn">
     </form>
-    
+
     <hr>
-    
+
     <h2>Validation - pattern</h2>
-    
-    <h3>Form validation is of vital importance to a website’s security as well as its usability. The validation process evaluates whether the input value is in the correct format before submitting it.</h3>
-    
+
+    <h3>Form validation is of vital importance to a website’s security as well as its usability. The validation process
+        evaluates whether the input value is in the correct format before submitting it.</h3>
+
     <h3>Example of Validation - pattern for email</h3>
-    
-    <form action="login.php" enctype="multipart/form-data" method="post"> 
-        <input placeholder="User Name" type="text" name="username" id="username" required> 
-        <input placeholder="Password" type="password" name="password" id="password"> 
-        <input placeholder="Email address" type="email" title="Invalid email address" name="password" id="password"> 
-        <input placeholder="Input Txt Pattern Email" type="text" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}" title="Invalid email address" name="password" id="password"> 
+
+    <form action="login.php" enctype="multipart/form-data" method="post">
+        <input placeholder="User Name" type="text" name="username" id="username" required>
+        <input placeholder="Password" type="password" name="password" id="password">
+        <input placeholder="Email address" type="email" title="Invalid email address" name="password" id="password">
+        <input placeholder="Input Txt Pattern Email" type="text" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}"
+            title="Invalid email address" name="password" id="password">
         <input type="file" name="profile_pic" id="profile_pic" accept="image/*">
-        <input type="submit" name="btn" id="btn"> 
+        <input type="submit" name="btn" id="btn">
     </form>
 
 
