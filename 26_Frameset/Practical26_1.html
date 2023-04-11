@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Practical of Frameset in HTML</title>
+
+<style>
+   .bggrn{
+      background-color: green;
+   }
+   .bgyl{
+      background-color: yellow;
+   }
+</style>
+
+   <FRAMESET cols="33%,34%,33%">
+   <FRAMESET rows="100, 100, 100">
+      
+         <FRAME src="contents_of_Start.html" class="bgyl">
+      <FRAME src="contents_of_frame1.html" class="bggrn" >
+         <FRAME src="contents_of_frame2.html" class="bgyl" >
+            
+   </FRAMESET>
+   <FRAMESET rows="150,150">
+      <FRAME src="contents_of_frame3.html" class="bgyl">
+   <FRAME src="contents_of_frame4.html" class="bggrn">
+      
+   </FRAMESET>
+   <FRAMESET  rows="50,100">
+      <FRAME src="contents_of_frame5.html" class="bggrn">      
+         <FRAME src="contents_of_bye.html" class="bgyl">
+   </FRAMESET>
+   
+   <NOFRAMES>
+      <P>This frameset document contains:
+      <UL>
+         <LI><A href="contents_of_frame1.html">Some neat contents</A>
+         <LI><A href="contents_of_frame2.html">Some another neat contents</A>
+         <LI><A href="contents_of_frame3.html">Some other neat contents</A>
+      </UL>
+   
+      
+   </NOFRAMES>
+   </FRAMESET>
+</head>
+<body>
+</body>
+
+</HTML>
