@@ -1,220 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practical of iframe in HTML</title>
     <style>
-        section{
+        section {
             border: 2px solid black;
             width: 300px;
-            background-color: burlywood;
+            background-color: rgb(42, 239, 164);
         }
-        body{
-            background-color: coral;
+
+        body {
+            background-color: rgb(174, 247, 191);
         }
-        
-       
+
+        li {
+            padding: 15px;
+            font-weight: bolder;
+            font-size: large;
+            color: brown;
+        }
+
+
+        button {            
+            background-color: rgba(174, 254, 54, 0.472);
+            border: 2px solid #354701;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: 600;            
+        }
+        .ylbtn{
+            background-color: rgb(210, 247, 23);
+            border: 2px solid #354701;
+            border-radius: 15px;
+            font-size: 15px;
+            font-weight: 600;  
+        }
     </style>
 </head>
+
 <body>
     <table>
         <tr>
             <td>
                 <section>
-                <ul>
-                    <li><a target="myframe" href="../01_Introduction_of_HTML/Intro.html">Introduction</a>
                     <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    </li>
-                    <li><a target="myframe" href="../02_TagsVsElements/IntroOfTagsVsElements.html">Tag Vs Element</a>
+                       <li>
+                        <button><a target="myframe"
+                                href="../01_Introduction_of_HTML/Intro.html">Introduction</a></button>
                         <ul>
-                            <li><a target="myframe" href="../02_TagsVsElements/Practical2.html">Practical</a></li>
-                        </ul></li>
-                    <li><a target="myframe" href="../03_BasicTags/IntroOfBasicTags.html">Basic Tags</a>
-                    <ul>
-                        <li><a target="myframe" href="../03_BasicTags/Practical3.html">Practical</a></li>
+                            <li><button  class="ylbtn" ><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></button>
+                            </li>
+                        </ul>
+                    </li> 
+                        <li><button><a target="myframe" href="../02_TagsVsElements/IntroOfTagsVsElements.html">Tag Vs
+                                Element</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../02_TagsVsElements/Practical2.html">Practical</a></button></li>
+                            </ul>
+                        </li>
+                        <li><button><a target="myframe" href="../03_BasicTags/IntroOfBasicTags.html">Basic Tags</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../03_BasicTags/Practical3.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../04_nestedTags/IntroOfNestedTag.html">Nested Tags</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../04_nestedTags/Practical4.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../05_blockquate/IntroOfBlockquate.html">Blockquate</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../05_blockquate/Practical5.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../06_ElementsTypes/IntroOfElementsTypes.html">ElementsTypes</a></button>
+
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../07_BlockLevelElement/introOfBlockLevelElement.html">Block Level
+                                Element</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../07_BlockLevelElement/Practical7.html">Practical</a></button>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../08_inlineElement/IntroOfInlineElement.html">Inline Element</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../08_inlineElement/Practical8.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../09_heading/IntroOfHeading.html">Heading</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../09_heading/Practical9.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../10_List/IntroOfList.html">List</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../10_List/Practical10_ul.html">Practical-ul</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../10_List/Practical10_dl.html">Practical-dl</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../10_List/Practical10_ol.html">Practical-ol</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../11_image/IntroOfImage.html">Image</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../11_image/Practical11.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../12_path_absolute_relative/IntroOfPath.html">Path Absolute
+                                Relative</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe"
+                                        href="../12_path_absolute_relative/Practical12.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../13_base/IntroOfBase.html">Base</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../13_base/Practical13.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../14_ImageMap/IntroOfImageMap.html">Image</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../14_ImageMap/Practical14_1.html">Practical-1</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../14_ImageMap/Practical14_2.html">Practical-2</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../15_Anchor/introOfAnchor.html">Anchor</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../15_Anchor/Practical15.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../16_GlobalAttributesList/IntroGlobalAttributesList.html">Global
+                                Attributes List</a></button>
+                                <ul>
+                                    <li><button class="ylbtn"><a target="myframe"
+                                            href="../16_GlobalAttributesList/Practical16.html">Practical</a></button></li>
+                                </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../17_AttributesList/IntroOfAttributes.html">Attributes List</a></button>
+                            <ul>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../18_voidElement/IntroOfVoidElement.html">Void Element</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../18_voidElement/Practical18.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../19_Structural_html5_Semantics/IntroOfSemantics.html">Semantic
+                                Elements</a></button>
+                            <ul>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../20_detailsSummary/introOfDetailsSummary.html">Details &
+                                Summary</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../20_detailsSummary/Practical20.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe"
+                                href="../21_DivSectionSpanLable/IntroOfDivSectionSpanLable.html">Important Tags of
+                                HTML</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../21_DivSectionSpanLable/Practical21.html">Practical</a></button>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../22_figurecap/IntroOffigurecap.html">Figure & Figure Caption</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../22_figurecap/Practical22.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../23_PhraseTags/IntroOfPhraseTags.html">Phrase Tags</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../23_PhraseTags/Practical23.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../24_Table/IntroOfTable.html">Table</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../24_Table/Practical24_1.html">Practical-1</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../24_Table/Practical24_2.html">Practical-2</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../24_Table/Practical24_3.html">Practical-3</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../24_Table/Practical24_4.html">Practical-4</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../24_Table/Practical24_5.html">Practical-5</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../24_Table/Practical24_6.html">Practical-6</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../25_Form/IntroOfForm.html">Form</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../25_Form/Practical25_1.html">Practical-1</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../25_Form/Practical25_2.html">Practical-2</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../26_Frameset/IntroFrameSet.html">Frame & Frameset</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../26_Frameset/Practical26_1.html">Practical-1</a></button></li>
+                                <li><button class="ylbtn"><a target="myframe" href="../26_Frameset/Practical26_2.html">Practical-2</a></button></li>
+                            </ul>
+
+                        </li>
+
+                        <li><button><a target="myframe" href="../27_iframe/IntroOfIframe.html">iFrame</a></button>
+                            <ul>
+                                <li><button class="ylbtn"><a target="myframe" href="../27_iframe/Practical27.html">Practical</a></button></li>
+                            </ul>
+
+                        </li>
+
                     </ul>
-                    
-                </li>
+                </section>
+            </td>
+        </tr>
 
-                    <li><a target="myframe" href="../04_nestedTags/IntroOfNestedTag.html">Nested Tags</a>
-                    <ul>
-                        <li><a target="myframe" href="../04_nestedTags/Practical4.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
+        <iframe src="../01_Introduction_of_HTML/Intro.html" align="right" height="800px" width="700px" name="myframe"
+            frameborder="0"></iframe>
 
-                    <li><a target="myframe" href="../05_blockquate/IntroOfBlockquate.html">Blockquate</a>
-                    <ul>
-                        <li><a target="myframe" href="../05_blockquate/Practical5.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
+    </table>
 
-                    <li><a target="myframe" href="../06_ElementsTypes/IntroOfElementsTypes.html">ElementsTypes</a>
-                    
-                    
-                </li>
+    <button><a href="" target="_top">Go to Top of the page</a></button>
 
-                    <li><a target="myframe" href="../07_BlockLevelElement/introOfBlockLevelElement.html">Block Level Element</a>
-                    <ul>
-                        <li><a target="myframe" href="../07_BlockLevelElement/Practical7.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../08_inlineElement/IntroOfInlineElement.html">Inline Element</a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../09_heading/IntroOfHeading.html">Heading</a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../10_List/IntroOfList.html">List</a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../11_image/IntroOfImage.html">Image</a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../12_path_absolute_relative/IntroOfPath.html">Path Absolute Relative</a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../13_base/IntroOfBase.html">Base</a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../14_ImageMap/IntroOfImageMap.html">Image</a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../15_Anchor/introOfAnchor.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../16_GlobalAttributesList/IntroGlobalAttributesList.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../17_AttributesList/IntroOfAttributes.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../18_voidElement/IntroOfVoidElement.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../19_Structural_html5_Semantics/IntroOfSemantics.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../20_detailsSummary/introOfDetailsSummary.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../21_DivSectionSpanLable/IntroOfDivSectionSpanLable.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../22_figurecap/IntroOffigurecap.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../23_PhraseTags/IntroOfPhraseTags.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../24_Table/IntroOfTable.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../25_Form/IntroOfForm.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../26_Frameset/IntroFrameSet.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-
-                    <li><a target="myframe" href="../27_iframe/IntroOfIframe.html"></a>
-                    <ul>
-                        <li><a target="myframe" href="../01_Introduction_of_HTML/Practical1.html">Practical</a></li>
-                    </ul>
-                    
-                </li>
-                    
-                </ul>
-            </section>
-        </td>
-    </tr>
-    
-    <iframe src="../01_Introduction_of_HTML/Intro.html" align="right" height="800px" width="700px" name="myframe" frameborder="0"></iframe>
-    
-</table>
-
-<a href="" target="_top">Go to Top of the page</a>
-</html
-</body>
+</html </body>
