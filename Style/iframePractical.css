@@ -1,0 +1,109 @@
+section {
+   border: 2px solid black;
+   width: 300px;
+   background-color: rgb(109, 246, 150);
+}
+
+body {
+   background-color: rgb(174, 247, 191);
+}
+
+li {
+   padding: 15px;
+   font-weight: bolder;
+   font-size: large;
+   color: brown;
+}
+
+button {
+   background-color: #ee9f7b;
+   border: 0.1px solid #354701;
+   border-radius: 56px;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   outline: 0;
+   padding: 5px 10px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   transition: all .3s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ button:before {
+   background-color: initial;
+   background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+   border-radius: 125px;
+   content: "";
+   height: 50%;
+   left: 4%;
+   opacity: .5;
+   position: absolute;
+   top: 0;
+   transition: all .3s;
+   width: 92%;
+ }
+ 
+ button:hover {
+   box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+   transform: scale(1.05);
+ }
+ 
+ @media (min-width: 768px) {
+   .button-71 {
+     padding: 16px 48px;
+   }
+ }
+
+
+.ylbtn {
+  background-color: #eee87b;
+  border: 0.1px solid #354701;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.ylbtn:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.ylbtn:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}

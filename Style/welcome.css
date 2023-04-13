@@ -1,0 +1,21 @@
+.a {
+    color: rgb(113, 104, 10);
+    font-size: 700%;
+    padding-top: 35px;
+    
+    text-align: center;
+}
+
+.b {
+    color: rgb(51, 23, 160);
+    font-size: 400%;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.c {
+    color: black;
+    font-size: 200%;
+    padding-top: 35px;
+    text-align: center;
+}
