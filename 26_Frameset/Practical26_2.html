@@ -1,40 +1,65 @@
 <!DOCTYPE html>
-<html>
-   
-   <head>
-      <title>HTML Frames</title>
-   </head>
-   
-   <frameset rows = "25%,50%,25%">
-      <frame name = "top" src = "/html/top_frame.htm" />
-      <frame name = "main" src = "/html/main_frame.htm" />
-      <frame name = "bottom" src = "/html/bottom_frame.htm" />
-      
-      <noframes>
-         <body>Your browser does not support frames.</body>
-      </noframes>
-   </frameset>
-   
-</html>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
-   "http://www.w3.org/TR/html4/frameset.dtd">
-<HTML>
-<HEAD>
-<TITLE>A simple frameset document</TITLE>
-</HEAD>
-<FRAMESET cols="20%, 80%">
-  <FRAMESET rows="100, 200">
-      <FRAME src="contents_of_frame1.html">
-      <FRAME src="contents_of_frame2.gif">
-  </FRAMESET>
-  <FRAME src="contents_of_frame3.html">
-  <NOFRAMES>
-      <P>This frameset document contains:
-      <UL>
-         <LI><A href="contents_of_frame1.html">Some neat contents</A>
-         <LI><IMG src="contents_of_frame2.gif" alt="A neat image">
-         <LI><A href="contents_of_frame3.html">Some other neat contents</A>
-      </UL>
-  </NOFRAMES>
-</FRAMESET>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Practical of Frameset & Frame in HTML</title>
+
+   <link rel="stylesheet" href="../Style/FramesetPractical.css" class="style">
+
+   <!-- Frameset with 3 coloms starts here -->
+   <FRAMESET cols="33%,34%,33%">
+
+      <!-- Frameset with 2 rows starts here -->
+      <FRAMESET rows="180, 60">
+
+         <!-- This is first frame (Its a void element)  -->
+         <FRAME src="../Other files/contents_of_Start.html">
+
+            <!-- This is second frame (Its a void element)  -->
+            <FRAME src="../Other files/contents_of_frame1.html" class="bggrn">
+
+      </FRAMESET>
+      <!-- Frameset with 2 rows end here -->
+
+      <!-- Frameset with 3 rows starts here -->
+      <FRAMESET rows="150,150,150">
+
+         <!-- This is first frame (Its a void element)  -->
+         <FRAME src="../Other files/contents_of_frame2.html" class="bgyl">
+
+            <!-- This is second frame (Its a void element)  -->
+            <FRAME src="../Other files/contents_of_frame3.html" class="bgyl">
+
+               <!-- This is third frame (Its a void element)  -->
+               <FRAME src="../Other files/contents_of_frame4.html" class="bggrn">
+
+      </FRAMESET>
+      <!-- Frameset with 3 rows end here -->
+
+
+
+      <!-- Frameset with 2 rows starts here -->
+      <FRAMESET rows="50,150">
+
+         <!-- This is first frame (Its a void element)  -->
+         <FRAME src="../Other files/contents_of_frame5.html" class="bggrn">
+
+            <!-- This is second frame (Its a void element)  -->
+            <FRAME src="../Other files/contents_of_bye.html">
+
+      </FRAMESET>
+      <!-- Frameset with 2 rows end here -->
+
+   </FRAMESET>
+   <!-- Frameset with 3 coloms end here -->
+
+</head>
+
+<body>
+</body>
+
 </HTML>

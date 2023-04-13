@@ -1,43 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Practical of Frameset in HTML</title>
-<link rel="stylesheet" href="../Style/FramesetPractical.css" class="style">
-
-   <FRAMESET cols="33%,34%,33%">
-   <FRAMESET rows="180, 60">
-      
-         <FRAME src="../Other files/contents_of_Start.html" >
-      <FRAME src="../Other files/contents_of_frame1.html" class="bggrn" >
-         
-      </FRAMESET>
-      <FRAMESET rows="150,150,150">
-      <FRAME src="../Other files/contents_of_frame2.html" class="bgyl" >
-      <FRAME src="../Other files/contents_of_frame3.html" class="bgyl">
-   <FRAME src="../Other files/contents_of_frame4.html" class="bggrn">
-      
-   </FRAMESET>
-   <FRAMESET  rows="50,150">
-      <FRAME src="../Other files/contents_of_frame5.html" class="bggrn">      
-         <FRAME src="../Other files/contents_of_bye.html" >
-   </FRAMESET>
-   
-   <NOFRAMES>
-      <P>This frameset document contains:
-      <UL>
-         <LI><A href="contents_of_frame1.html">Some neat contents</A>
-         <LI><A href="contents_of_frame2.html">Some another neat contents</A>
-         <LI><A href="contents_of_frame3.html">Some other neat contents</A>
-      </UL>
-   
-      
-   </NOFRAMES>
-   </FRAMESET>
+   <title>Practical of Frameset & Frame in HTML</title>
 </head>
-<body>
-</body>
 
-</HTML>
+<!-- Frameset with 3 coloms starts here -->
+<frameset cols="33%,34%,33%">
+
+   <!-- Frameset with 2 rows starts here -->
+   <frameset rows="100,100">
+
+      <!-- This is first frame (Its a void element)  -->
+      <frame name="top-left" src="../Other files/top_frame.htm">
+
+         <!-- This is second frame (Its a void element)  -->
+         <frame name="bot-left" src="../Other files/left_frame.htm">
+
+   </frameset>
+   <!-- Frameset with 2 rows end here -->
+
+   <!-- Frameset with 2 rows starts here -->
+   <frameset rows="100,100">
+
+      <!-- This is first frame (Its a void element)  -->
+      <frame name="top-center" src="../Other files/main_frame.htm">
+
+         <!-- This is second frame (Its a void element)  -->
+         <frame name="bot-center" src="../Other files/center_frame.htm">
+
+   </frameset>
+   <!-- Frameset with 2 rows end here -->
+
+   <!-- Frameset with 2 rows starts here -->
+   <frameset rows="100,100">
+      <!-- This is first frame (Its a void element)  -->
+      <frame name="top-right" src="../Other files/bottom_frame.htm">
+         <!-- This is second frame (Its a void element)  -->
+         <frame name="bot-right" src="../Other files/right_frame.htm">
+   </frameset>
+   <!-- Frameset with 2 rows end here -->
+
+
+
+</frameset>
+<!-- Frameset with 3 coloms end here -->
+
+<body>
+
+   <!-- Browser does not support frames which containt in body of HTML. -->
+
+
+   <frameset rows="33%,34%,33%">
+      <frame name="top" src="../Other files/top_frame.htm" />
+      <frame name="main" src="../Other files/main_frame.htm" />
+      <frame name="bottom" src="../Other files/bottom_frame.htm" />
+   </frameset>
+</body>
