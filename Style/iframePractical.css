@@ -107,3 +107,8 @@ button {
     padding: 16px 48px;
   }
 }
+
+ul li button a{
+  color: black;
+  text-decoration: wavy ;  
+}
