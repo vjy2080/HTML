@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical of SVG in HTML</title>
+</head>
+
+<body>
+
+    <h3> Example-1 of SVG simple circle image </h3>
+
+
+    <p><code>
+&lt;svg id="svgelem" height="200"&gt;
+    &lt;circle id="greencircle" cx="60" cy="60" r="50" fill="green" /&gt;
+&lt;/svg&gt;
+</code></p>
+
+
+    <svg id="svgelem" height="200">
+        <circle id="greencircle" cx="60" cy="60" r="50" fill="green" />
+    </svg>
+
+
+    <h3> Example-2 of SVG hollow circle image Without viewBox </h3>
+
+    <style type="text/css">
+        svg {
+            border: 1px solid #aaa;
+        }
+    </style>
+
+    <!-- Without viewBox -->
+    <p>
+        <code>
+&lt;svg width="200" height="200"&gt;
+    &lt;circle cx="50" cy="50" r="45"
+    stroke="#000" stroke-width="3"
+    fill="none"/&gt;
+&lt;/svg&gt;
+</code>
+    </p>
+    <svg width="200" height="200">
+        <circle cx="50" cy="50" r="45" stroke="#000" stroke-width="3" fill="none" />
+    </svg>
+
+    <h3> Example-3 of SVG hollow circle image with viewBox </h3>
+
+    <!-- With viewBox -->
+    <p><code>
+    &lt;svg width="200" height="200" viewBox="10 10 100 100"&gt;
+        &lt;circle cx="50" cy="50" r="45" stroke="#000"
+            stroke-width="3" fill="none"/&gt;
+    &lt;/svg&gt;
+</code></p>
+    <svg width="200" height="200" viewBox="10 10 100 100">
+        <circle cx="50" cy="50" r="45" stroke="#000" stroke-width="3" fill="none" />
+    </svg>
+
+    <!-- With viewBox -->
+    <p><code>
+    &lt;svg width="200" height="200" viewBox="0 0 200 200"&gt;
+        &lt;circle cx="50" cy="50" r="45" stroke="#000"
+            stroke-width="3" fill="none"/&gt; 
+    &lt;/svg&gt;
+</code></p>
+    </svg>
+    <svg width="200" height="200" viewBox="0 0 200 200">
+        <circle cx="50" cy="50" r="45" stroke="#000" stroke-width="3" fill="none" />
+    </svg>
+
+    <h3>2.Example of Canvas simple square image</h3>
+
+    <canvas id="newCanvas" width="100" height="100" style="border:1px solid #000000;">
+    </canvas>
+
+    <script>
+        var c = document.getElementById('newCanvas');
+        var ctx = c.getContext('2d');
+        ctx.fillStyle = '#7cce2b';
+        ctx.fillRect(0, 0, 100, 100);
+    </script>
+
+
+
+
+</body>
+
+</html>

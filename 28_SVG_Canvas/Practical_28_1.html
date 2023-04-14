@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical of SVG in HTML</title>
+
+    <!-- Given style (border) for understand how much area covered by it -->
+
+    <style>
+        svg {
+            border: 1px solid #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3> Example-1 of SVG simple circle image </h3>
+
+    <!-- This code is to make the coding easy to understand -->
+    <!-- starts here -->
+    <p><code>
+    &lt;svg id="svgelem" height="200"&gt;
+    &lt;circle id="greencircle" cx="60" cy="60" r="50" fill="green" /&gt;
+    &lt;/svg&gt;
+</code></p>
+    <!-- ends here -->
+
+    <!-- Used SVG for create circle fill with green color -->
+    <!-- starts here -->
+    <svg id="svgelem" height="200">
+        <circle id="greencircle" cx="60" cy="60" r="50" fill="green" />
+    </svg>
+    <!-- ends here -->
+
+
+    <h3> Example-2 of SVG hollow circle image Without viewBox </h3>
+
+    <!-- starts here -->
+
+    <!-- ends here -->
+
+    <!-- This code is to make the coding easy to understand -->
+    <!-- starts here -->
+    <p>
+        <code>
+            &lt;svg width="200" height="200"&gt;
+            &lt;circle cx="50" cy="50" r="45"
+            stroke="#000" stroke-width="3"
+            fill="none"/&gt;
+            &lt;/svg&gt;
+        </code>
+    </p>
+    <!-- ends here -->
+
+    <!-- Used SVG for create hollow circle with black border without viewbox -->
+    <!-- starts here -->
+    <svg width="200" height="200">
+        <circle cx="50" cy="50" r="45" stroke="#000" stroke-width="3" fill="none" />
+    </svg>
+    <!-- ends here -->
+
+    <h3> Example-3 of SVG hollow circle image with viewBox </h3>
+
+
+
+    <!-- This code is to make the coding easy to understand -->
+    <!-- starts here -->
+    <p><code>
+        &lt;svg width="200" height="200" viewBox="10 10 100 100"&gt;
+        &lt;circle cx="50" cy="50" r="45" stroke="#000"
+        stroke-width="3" fill="none"/&gt;
+        &lt;/svg&gt;
+    </code></p>
+    <!-- ends here -->
+
+    <!-- Used SVG for create hollow circle with black border with viewbox -->
+    <!-- starts here -->
+    <svg width="200" height="200" viewBox="10 10 100 100">
+        <circle cx="50" cy="50" r="45" stroke="#000" stroke-width="3" fill="none" />
+    </svg>
+    <!-- ends here -->
+    <br><br>
+
+<!-- This code is to make the coding easy to understand -->
+    <!-- starts here -->
+    <p><code>
+    &lt;svg width="200" height="200" viewBox="0 0 200 200"&gt;
+        &lt;circle cx="50" cy="50" r="45" stroke="#000"
+            stroke-width="3" fill="none"/&gt; 
+    &lt;/svg&gt;
+</code></p>
+    <!-- ends here -->
+    
+    <!-- Used SVG for create hollow circle with black border with viewbox -->
+    <!-- starts here -->    
+</svg>
+<svg width="200" height="200" viewBox="0 0 200 200">
+    <circle cx="50" cy="50" r="45" stroke="#000" stroke-width="3" fill="none" />
+</svg>
+<!-- ends here -->
+
+
+</body>
+
+</html>
