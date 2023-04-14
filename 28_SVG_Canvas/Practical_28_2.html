@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practical of SVG in HTML</title>
+    <title>Practical of Canvas in HTML</title>
 </head>
 
 <body>
@@ -38,6 +38,11 @@
     <hr>
 
     <h3>2.Let we use some script for fill green color in hollow rectangle </h3>
+
+
+
+    <!-- This code is for display the coding in browser -->
+    <!-- starts here -->
     <p>
         <code>
             &lt;canvas id="newCanvas" width="100" height="100" style="border:1px solid #000000;"&gt;
@@ -50,21 +55,31 @@
             &lt;/script&gt;
         </code>
     </p>
+    <!-- ends here -->
 
 
+    <!-- Used canvas element for create hollow rectangle image with black border  -->
+    <!-- starts here -->
     <canvas id="newCanvas" width="100" height="100" style="border:1px solid #000000;">
     </canvas>
+    <!-- ends here -->
+
+    <!-- Used some script for fill green color -->
+    <!-- starts here -->
     <script>
         var c = document.getElementById('newCanvas');
         var ctx = c.getContext('2d');
         ctx.fillStyle = 'green';
         ctx.fillRect(0, 0, 100, 100);
     </script>
+    <!-- ends here -->
 
     <hr>
 
     <h3>3.Let we use some script for draw a line in hollow rectangle </h3>
 
+    <!-- This code is for display the coding in browser -->
+    <!-- starts here -->
     <p>
         <code>
 
@@ -72,19 +87,25 @@
             &lt;/canvas&gt;
             <br>
             &lt;script&gt;
-                var c = document.getElementById("myCanvas");
-                var ctx = c.getContext("2d");
-                ctx.moveTo(0, 0);
-                ctx.lineTo(200, 200);
-                ctx.stroke();
-                &lt;/script&gt;
-
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0, 0);
+            ctx.lineTo(200, 200);
+            ctx.stroke();
+            &lt;/script&gt;
+            
         </code>
     </p>
+    <!-- ends here -->
 
+    <!-- Used canvas element for create hollow rectangle image with black border  -->
+    <!-- starts here -->
     <canvas id="myCanvas" width="100" height="100" style="border:1px solid #000000;">
     </canvas>
+    <!-- ends here -->
 
+    <!-- Used some script for draw a line -->
+    <!-- starts here -->
     <script>
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
@@ -92,11 +113,16 @@
         ctx.lineTo(200, 200);
         ctx.stroke();
     </script>
+    <!-- ends here -->
 
     <hr>
 
     <h3>4.Let we use some script for draw a circle in hollow rectangle </h3>
 
+    <!-- This code is for display the coding in browser -->
+    <!-- starts here -->
+    <p>
+        <code>
     &lt;canvas id="myCanvas1" width="100" height="100" style="border:1px solid #000000;"&gt;
     &lt;/canvas&gt;
     <br>
@@ -107,12 +133,20 @@
     ctx.arc(50, 50, 40, 0, 2 * Math.PI);
     ctx.stroke();
     &lt;/script&gt;
+    </code>
+    </p>
+    <!-- ends here -->
 
     <br><br>
 
+    <!-- Used canvas element for create hollow rectangle image with black border  -->
+    <!-- starts here -->
     <canvas id="myCanvas1" width="100" height="100" style="border:1px solid #000000;">
     </canvas>
+    <!-- ends here -->
 
+    <!-- Used some script for draw a circle -->
+    <!-- starts here -->
     <script>
         var c = document.getElementById("myCanvas1");
         var ctx = c.getContext("2d");
@@ -120,10 +154,16 @@
         ctx.arc(50, 50, 40, 0, 2 * Math.PI);
         ctx.stroke();
     </script>
+    <!-- ends here -->
 
     <hr>
 
     <h3>4.Let we use some script for draw a linear gradient red color in hollow rectangle </h3>
+
+    <!-- This code is for display the coding in browser -->
+    <!-- starts here -->
+    <p>
+        <code>
 
     &lt;canvas id="myCanvas2" width="200" height="100" style="border:1px solid #000000;"&gt;
     &lt;/canvas&gt;
@@ -132,19 +172,29 @@
     var c = document.getElementById("myCanvas2");
     var ctx = c.getContext("2d");
     <br>
-
+    
     var grd = ctx.createLinearGradient(0, 0, 200, 0);
     grd.addColorStop(0, "red");
     grd.addColorStop(1, "white");
     <br>
-
+    
     ctx.fillStyle = grd;
     ctx.fillRect(0, 0, 200, 100);
     &lt;/script&gt;
+</code>
+    </p>
+    <!-- ends here -->
+
     <br><br>
+
+    <!-- Used canvas element for create hollow rectangle image with black border  -->
+    <!-- starts here -->
     <canvas id="myCanvas2" width="200" height="100" style="border:1px solid #000000;">
     </canvas>
+    <!-- ends here -->
 
+    <!-- Used some script for draw a linear gradient red color -->
+    <!-- starts here -->
     <script>
         var c = document.getElementById("myCanvas2");
         var ctx = c.getContext("2d");
@@ -158,6 +208,7 @@
         ctx.fillStyle = grd;
         ctx.fillRect(0, 0, 200, 100);
     </script>
+    <!-- ends here -->
 
 </body>
 
