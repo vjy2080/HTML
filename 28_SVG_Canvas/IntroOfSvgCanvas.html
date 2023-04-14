@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of SVG Canvas in HTML</title>
+</head>
+
+<body>
+    <h3>What is SVG?</h3>
+    <ul>
+        <li> The Scalable Vector Graphics (SVG) is an XML-based image format</li><br>
+        <li> That is used to define two-dimensional vector-based graphics for the web.</li><br>
+        <li> Unlike raster image (Ex .jpg, .gif, .png, etc.), a vector image can be scaled up or down to any extent
+            without losing the image quality.</li><br>
+        <li> An SVG image is drawn out using a series of statements that follow the XML schema.</li><br>
+        <li> That means SVG images can be created and edited with any text editor, such as Notepad.</li><br>
+        <li> There are several other advantages of using SVG over other image formats like JPEG, GIF, PNG, etc.</li><br>
+    </ul>
+
+    <h3>What is SVG viewBox Attribute?</h3>
+    <ul>
+        <li>The viewBox is an attribute of the SVG element in HTML. </li><br>
+        <li> It is used to scale the SVG element that means we can set the coordinates as well as width and height.</li><br>
+        <li>Syntax of viewBox = "min-x min-y width height"</li><br>
+        <ul>
+            <li> <b> min-x: </b>It is used to set the horizontal axis. It is used to make the SVG move on a horizontal axis (i.e Left and Right).</li><br>
+            <li> <b> min-y: </b>It is used to set the vertical axis. It is used to make the SVG move on a vertical axis (i.e Up and Down).</li><br>
+            <li> <b> width: </b>It is used to set the width of viewbox.</li><br>
+            <li> <b> height:</b> It is used to set the height of viewbox.</li><br>
+        </ul>
+    </ul>
+
+    <h3>What is Canvas?</h3>
+    <ul>
+        <li> The HTML element is used to draw graphics on the fly, via scripting (usually JavaScript).</li><br>
+        <li> The element is only a container for graphics.</li><br>
+        <li> You must use a script to actually draw the graphics.</li><br>
+        <li> Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</li><br>
+    </ul>
+
+    <h3>Difference between SVG and HTML5 Canvas</h3>
+
+    <table border="5" width="50%">
+        <thead>
+            <tr>
+                <th>SVG</th>
+                <th>Canvas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vector based (composed of shapes)</td>
+                <td>Raster based (composed of pixel)</td>
+            </tr>
+            <tr>
+                <td>SVG has better scalability. So it can be printed with high quality at any resolution.</td>
+                <td>Canvas has poor scalability. Hence it is not suitable for printing on higher resolution.</td>
+            </tr>
+            <tr>
+                <td>SVG gives better performance with smaller number of objects or larger surface.</td>
+                <td>Canvas gives better performance with smaller surface or larger number of objects.</td>
+            </tr>
+            <tr>
+                <td>SVG can be modified through script and CSS.</td>
+                <td>Canvas can be modified through script only.</td>
+            </tr>
+            <tr>
+                <td>Multiple graphical elements, which become the part of the page's DOM tree.</td>
+                <td>Single element similar to &lt;img&gt; in behavior. Canvas diagram can be saved to PNG or JPG format.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+
+</html>
