@@ -1,11 +1,16 @@
 section {
    border: 2px solid black;
+   border-radius: 30px;
    width: 300px;
+   height: 100%;
    background-color: rgb(109, 246, 150);
 }
 
+
 body {
    background-color: rgb(174, 247, 191);
+   padding-right: 50px;
+   
 }
 
 li {
@@ -102,13 +107,20 @@ button {
   transform: scale(1.05);
 }
 
-@media (min-width: 768px) {
-  .button-71 {
-    padding: 16px 48px;
-  }
-}
 
 ul li button a{
   color: black;
   text-decoration: wavy ;  
+}
+
+iframe{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: #f0b79d;
+  padding: 10;
+  width: 750px;
+  height: 4025px;
+}
+element.style {
+  padding-right: 5px;
 }
