@@ -9,7 +9,6 @@ body {
 
 /* Index area styling */
 section {
-  position: static;
   border: 2px solid black;
   border-radius: 30px;
   width: 300px;
@@ -37,7 +36,7 @@ hr {
 
 /* All links are in list */
 li {
-  padding: 2px;
+  padding: 1px;
   color: brown;
   list-style-type: none;
 }
@@ -123,24 +122,26 @@ button:hover {
   transform: scale(1.05);
 }
 
-
+/* all the anchor tag style */
 a {
   color: black;
   text-decoration: wavy;
 }
 
+/* style to i frame */
 iframe {
-  position: static;
+  
   border: 2px solid black;
   border-radius: 30px;
   background-color: #f0b79d;
   padding: 10;
   width: 750px;
-  height: 2417px;
+  height:2688px ;
 }
 
+/* style to the "go to the top button" */
 .topbtn {
-  margin-left: 250px;
+  margin-left: 800px;
   background-color: green;
   border: 3px groove #b13c06;
   border-radius: 56px;
@@ -161,6 +162,3 @@ iframe {
   touch-action: manipulation;
 }
 
-element.style {
-  padding-right: 5px;
-}

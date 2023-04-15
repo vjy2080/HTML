@@ -6,11 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practical of iframe in HTML</title>
-    
-
 </head>
 
-
 <body>
+    
+    <h2>Example of iframe without scrollbar</h2>
+    
+    <!-- This code is for display the coding in browser -->
+    <!-- starts here -->
+    <p><code>
+        &lt;iframe src="../Images/Sample.jpg" frameborder="0" height="255px" width="355px"&gt;&lt;/iframe&gt;
+    </code></p>
+    <!-- ends here -->
+    
+    <!-- Used iframe element for show image in page -->
+    <!-- starts here -->
+        <iframe src="../Images/Sample.jpg" frameborder="0" height="255px" width="355px"></iframe>
+        <!-- ends here -->
+    
+
+
+    <h2>Example of iframe with scrollbar</h2>
+    
+    <!-- This code is for display the coding in browser -->
+    <!-- starts here -->
+    <p><code>
+        &lt;iframe src="../Images/Sample.jpg" frameborder="0" height="200px" width="200px"&gt;&lt;/iframe&gt; 
+    </code></p>
+    <!-- ends here -->
+
+    
+    <!-- Used iframe element for show image in page with scroll bar -->
+    <!-- starts here -->
+    <iframe src="../Images/Sample.jpg" frameborder="0" height="200px" width="200px"></iframe> 
+    <!-- ends here -->
+
+
+    <h2>Example of iframe used with anchor tag</h2>
+
+    
+    <!-- This code is for display the coding in browser -->
+    <!-- starts here -->
+    <p><code>
+        &lt;li&gt;&lt;button&gt; &lt;a href="../Images/Hello.gif" target="image"&gt;Hello Image&lt;/a&gt;&lt;/button&gt; &lt;br&gt;&lt;/li&gt; <br>
+        &lt;li&gt;&lt;button&gt; &lt;a href="../Images/Sample.jpg" target="image"&gt;Sample Image&lt;/a&gt;&lt;/button&gt; &lt;br&gt;&lt;/li&gt;<br>
+        &lt;li&gt;&lt;button&gt; &lt;a href="../Images/Sample2.jpg" target="image"&gt;Sample2 Image&lt;/a&gt;&lt;/button&gt; &lt;br&gt;&lt;/li&gt;<br>
+        &lt;li&gt;&lt;button&gt; &lt;a href="../Images/Sample3.jpg" target="image"&gt;Sample3 Image&lt;/a&gt;&lt;/button&gt; &lt;br&gt;&lt;/li&gt;<br>
+        
+        &lt;iframe src="../Images/welcome.gif" frameborder="0" height="500px" width="500px" name="image"&gt;&lt;/iframe&gt;
+    </code></p>
+    <!-- ends here -->
+
+<p>Click on button for open image in frame</p>
+
+
+<!-- Used iframe element with anchor tag to create menu type image viewer -->
+<!-- starts here -->
+<li><button> <a href="../Images/Hello.gif" target="image">Hello Image</a></button> <br></li>
+<li><button> <a href="../Images/Sample.jpg" target="image">Sample Image</a></button> <br></li>
+<li><button> <a href="../Images/Sample2.jpg" target="image">Sample2 Image</a></button> <br></li>
+<li><button> <a href="../Images/Sample3.jpg" target="image">Sample3 Image</a></button> <br></li>
+
+<iframe src="../Images/welcome.gif" frameborder="0" height="500px" width="500px" name="image"></iframe>
+<!-- ends here -->
+
+
+
 </body>
-</html> 
+
+</html>
