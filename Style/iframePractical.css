@@ -1,13 +1,15 @@
 
 /* body is used as background */
 body {
+  position: static;
   background-color: rgb(247, 241, 174);
-  
+
   position: absolute;
 }
 
 /* Index area styling */
 section {
+  position: static;
   border: 2px solid black;
   border-radius: 30px;
   width: 300px;
@@ -24,7 +26,7 @@ h2 {
 }
 
 /* horizontalrule for index */
-.hr{
+.hr {
   border: 3px double red;
 }
 
@@ -37,12 +39,13 @@ hr {
 li {
   padding: 2px;
   color: brown;
+  list-style-type: none;
 }
 
 /* all topics button which is in index */
 button {
   background-color: #ee9f7b;
-  border: 0.1px solid #354701;
+  border: 3px groove #b13c06;
   border-radius: 56px;
   color: #fff;
   cursor: pointer;
@@ -82,7 +85,7 @@ button:hover {
 /* all subtopics button which is in index */
 .ylbtn {
   background-color: #eee87b;
-  border: 0.1px solid #354701;
+  border: 3px groove black;
   border-radius: 56px;
   color: #fff;
   cursor: pointer;
@@ -121,18 +124,41 @@ button:hover {
 }
 
 
-ul li button a {
+a {
   color: black;
   text-decoration: wavy;
 }
 
 iframe {
+  position: static;
   border: 2px solid black;
   border-radius: 30px;
   background-color: #f0b79d;
   padding: 10;
   width: 750px;
   height: 2417px;
+}
+
+.topbtn {
+  margin-left: 250px;
+  background-color: green;
+  border: 3px groove #b13c06;
+  border-radius: 56px;
+  color: #fa0606;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  outline: 0;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 element.style {
