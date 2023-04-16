@@ -8,11 +8,11 @@ body {
 }
 
 /* Index area styling */
-section {
+.index {
   border: 2px solid black;
   border-radius: 30px;
-  width: 300px;
-  height: 100%;
+  width: 29%;
+  height: 550px;
   background-color: rgb(109, 246, 150);
 }
 
@@ -129,14 +129,14 @@ a {
 }
 
 /* style to i frame */
-iframe {
+.iframe {
   
   border: 2px solid black;
   border-radius: 30px;
   background-color: #f0b79d;
   padding: 10;
-  width: 750px;
-  height:2688px ;
+  width: 70%;
+  height: 550px; ;
 }
 
 /* style to the "go to the top button" */
