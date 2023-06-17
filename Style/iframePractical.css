@@ -11,7 +11,7 @@ body {
 .index {
   border: 2px solid black;
   border-radius: 30px;
-  width: 335px;
+  width: 30vw;
   height: 550px;
   background-color: rgb(109, 246, 150);
 }
@@ -135,7 +135,7 @@ a {
   border-radius: 30px;
   background-color: #f0b79d;
   /* padding: 10; */
-  width: 820px;
+  width: 65vw;
   height: 550px; ;
 }
 
@@ -162,3 +162,10 @@ a {
   touch-action: manipulation;
 }
 
+.main{
+  display: flex;
+  flex-wrap:wrap ;
+  width: 97vw;
+  height: 97vh;
+  justify-content: space-between;
+}
